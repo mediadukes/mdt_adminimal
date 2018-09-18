@@ -1,0 +1,9 @@
+/* Chosen overrides */
+
+.text-format-wrapper .filter-wrapper {
+  overflow: hidden !important;
+}
+
+.field--widget-chosen-select {
+  margin-bottom: 0.5em;
+}

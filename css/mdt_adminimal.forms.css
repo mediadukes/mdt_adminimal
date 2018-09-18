@@ -1,0 +1,91 @@
+/* Fields (core) */
+
+.field img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.layout-region-node-main > .field--name-title {
+  padding: 0.5em 0.8em;
+  background-color: #f7f7f7;
+  border: 1px solid #bfbfbf;
+  margin-bottom: 1.5em;
+}
+
+.form-item {
+  margin: 0 0 1.5em 0;
+}
+
+.form-item > .form-type-textarea {
+  margin-bottom: 0;
+}
+
+.mdt-adminimal .cke_chrome {
+  box-shadow: none;
+}
+
+
+
+/* Edit form layout (core) */
+
+.entity-meta {
+  border-radius: 0;
+}
+
+@media
+screen and (min-width: 780px),
+(orientation: landscape) and (min-device-height: 780px) {
+
+  .layout-region-node-main,
+  .layout-region-node-footer {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .layout-region-node-secondary {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media
+screen and (min-width: 992px),
+(orientation: landscape) and (min-device-height: 992px) {
+
+  .layout-region-node-main,
+  .layout-region-node-footer {
+    float: left;
+    width: 75%;
+    padding-right: 1.5em;
+  }
+
+  .layout-region-node-secondary {
+    float: right;
+    width: 25%;
+  }
+}
+
+@media
+screen and (min-width: 1200px),
+(orientation: landscape) and (min-device-height: 1200px) {
+
+  .layout-region-node-main,
+  .layout-region-node-footer {
+    width: 70%;
+  }
+
+  .layout-region-node-secondary {
+    width: 30%;
+  }
+}
+
+
+/* Collapsible details (seven) */
+
+.seven-details {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 0;
+}

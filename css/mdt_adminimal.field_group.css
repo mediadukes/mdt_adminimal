@@ -1,0 +1,40 @@
+/* Vertical tabs (field group) */
+
+.vertical-tabs__menu-item.is-selected a,
+.vertical-tabs__menu-item a:hover,
+.vertical-tabs__menu-item a:focus,
+[data-vertical-tabs-panes] {
+  background-color: #f7f7f7;
+}
+
+
+/* Horizontal tabs (field group) */
+
+.horizontal-tabs .horizontal-tabs-list {
+  background-color: #f7f7f7;
+  border-right: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.horizontal-tabs .horizontal-tabs-panes {
+  padding-left: .5em;
+  padding-right: .5em;
+  margin-top: -5px;
+}
+
+.horizontal-tabs .horizontal-tabs-panes > details {
+  padding: 0 0.4em;
+}
+
+.horizontal-tabs .horizontal-tabs-panes > details > summary {
+  display: none;
+}
+
+.horizontal-tabs .horizontal-tabs-panes > details > .details-wrapper {
+  padding: 0.2em 0.5em 0.1em;
+}
+
+.horizontal-tabs .horizontal-tabs-panes > .horizontal-tabs-pane {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}

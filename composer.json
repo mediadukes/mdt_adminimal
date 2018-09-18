@@ -1,0 +1,35 @@
+{
+  "name": "mediadukes/mdt_adminimal",
+  "description": "Media Dukes subtheme for the contributed Adminimal Theme",
+  "type": "drupal-custom-theme",
+  "license": "proprietary",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://packages.mediadukes.be"
+    }
+  ],
+  "require": {
+    "drupal/adminimal_theme": "^1.0",
+    "oomphinc/composer-installers-extender": "^1.1"
+  },
+  "extra": {
+    "installer-types": [
+      "drupal-custom-theme"
+    ],
+    "installer-paths": {
+      "web/themes/contrib/{$name}": [
+        "type:drupal-theme",
+        "type:drupal-custom-theme"
+      ]
+    }
+  }
+}

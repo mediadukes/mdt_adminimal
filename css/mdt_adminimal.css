@@ -1,0 +1,50 @@
+/* COLORS */
+
+.mdt-adminimal .color-success {
+  background-color: #ddffdd;
+  color: #000;
+}
+.mdt-adminimal .color-success:hover,
+.mdt-adminimal .color-success:focus {
+  background-color: #e6fcd9;
+}
+
+.mdt-adminimal .color-warning {
+  background-color: #ffffdd;
+  color: #000;
+}
+.mdt-adminimal .color-warning:hover,
+.mdt-adminimal .color-warning:focus {
+  background-color: #fffebb;
+}
+
+.mdt-adminimal .color-error {
+  background-color: #ffcccc;
+  color: #000;
+}
+.mdt-adminimal .color-error:hover,
+.mdt-adminimal .color-error:focus {
+  background-color: #ffdbdb;
+}
+
+
+/* Admin toolbar (core + adminimal) */
+
+.mdt-adminimal .content-header {
+  background-color: #272727;
+}
+
+.block-page-title-block h1 {
+  margin-top: 0.2rem;
+  margin-bottom: 0.7rem;
+}
+
+
+/* Display fieldgroups */
+
+summary[aria-expanded="true"],
+summary[aria-expanded="false"] {
+  display: list-item;
+  height: auto;
+  float: none;
+}

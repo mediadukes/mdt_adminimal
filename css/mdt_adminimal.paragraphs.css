@@ -1,0 +1,42 @@
+/* Fields (paragraphs) */
+
+.form-wrapper .details-wrapper table tr td {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+.form-wrapper .details-wrapper table tr td:first-child {
+  padding-left: 0;
+}
+
+.form-wrapper .details-wrapper table tr td:last-child {
+  padding-right: 0;
+}
+
+.form-wrapper .details-wrapper table tr td input.form-text {
+  max-width: none;
+  width: 100%;
+}
+
+.form-wrapper > [class^="field--type-"] {
+  margin-bottom: 1em;
+}
+
+.field--widget-entity-reference-paragraphs .form-wrapper > .form-wrapper > em {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+
+/* Dropdown buttons (paragraphs) */
+
+/*.dropbutton-wrapper,
+.form-actions .button {
+  margin-top: 10px;
+}*/
+
+.paragraphs-dropbutton-wrapper input.button {
+  margin-right: 5px;
+  margin-top: 10px;
+}

@@ -1,0 +1,27 @@
+/* Fields (Entity Browser) */
+
+.field--widget-entity-browser-entity-reference .rendered-entity .media {
+  float: left;
+  min-width: 40%;
+}
+
+.field--widget-entity-browser-entity-reference .rendered-entity .media-document {
+  padding-top: 5px;
+}
+
+.field--widget-entity-browser-entity-reference .rendered-entity .button {
+  display: inline-block;
+  margin: 0 0 5px 5px;
+}
+
+
+/* Clearfixes */
+
+.field--widget-entity-browser-entity-reference .rendered-entity:before,
+.field--widget-entity-browser-entity-reference .rendered-entity:after {
+  content: " ";
+  display: table;
+}
+.field--widget-entity-browser-entity-reference .rendered-entity:after {
+  clear: both;
+}

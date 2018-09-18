@@ -19,17 +19,11 @@
   ],
   "require": {
     "drupal/adminimal_theme": "^1.0",
-    "oomphinc/composer-installers-extender": "^1.1"
+    "composer/installers": "^1.2"
   },
   "extra": {
-    "installer-types": [
-      "drupal-custom-theme"
-    ],
     "installer-paths": {
-      "web/themes/contrib/{$name}": [
-        "type:drupal-theme",
-        "type:drupal-custom-theme"
-      ]
+      "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
     }
   }
 }

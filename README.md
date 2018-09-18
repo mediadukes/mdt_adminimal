@@ -26,22 +26,16 @@ inside your root `composer.json` where mediadukes packages can be found.
 ]
 ```
 
-We also defined a custom type in this theme's `composer.json` so we can install 
+We also use the custom composer type in this theme's `composer.json` so we can install 
 it directly inside the `themes/custom` directory for easy future modifications. 
 For that to work it requires the 
-[oomphinc/composer-installers-extender](https://packagist.org/packages/oomphinc/composer-installers-extender) 
+[composer/installers](https://packagist.org/packages/composer/installers) 
 composer plugin and you need to add following snippet to your root `composer.json`:
 
 ```
 "extra": {
-  "installer-types": [
-    "drupal-custom-theme"
-  ],
   "installer-paths": {
-    "web/themes/contrib/{$name}": [
-      "type:drupal-theme",
-      "type:drupal-custom-theme"
-    ]
+    "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
   }
 }
 ```
